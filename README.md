@@ -25,10 +25,30 @@ To set up the `lobe-ai` project on your local machine, follow these steps:
    ```bash
    cd lobe-ai
 
-2. **Install Dependencies**
+3. **Install Dependencies**
 
    Make sure you have Node.js installed. Then run:
    ```bash
    npm install
+
+
+
+## Usage
+
+To start the application locally:
+
+1. **Run the Development Server**
+
+   ```bash
+   npm run dev
+
+
+2. **Build for Production**
+   
+   ```bash
+   npm run build
+
+
+   This will create a production-ready build in the dist directory.
 
 
