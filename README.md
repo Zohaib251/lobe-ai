@@ -31,8 +31,6 @@ To set up the `lobe-ai` project on your local machine, follow these steps:
    ```bash
    npm install
 
-
-
 ## Usage
 
 To start the application locally:
@@ -42,13 +40,8 @@ To start the application locally:
    ```bash
    npm run dev
 
-
 2. **Build for Production**
    
    This will create a production-ready build in the dist directory.
    ```bash
    npm run build
-
-
-
-
