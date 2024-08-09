@@ -91,7 +91,7 @@ const Video = () => {
             <button className="font-bold py-2 px-4 rounded-3xl text-xl lg:text-2xl duration-300 transform transition-transform ease hover:scale-105 bg-customMediumGreen text-white">
               Download
             </button>
-            <div className="text-[#29E2BD] font-bold text-lg lg:text-xl duration-300 transform transition-transform ease hover:scale-105">
+            <div className="text-[#29E2BD] cursor-pointer font-bold text-lg lg:text-xl duration-300 transform transition-transform ease hover:scale-105">
               <a onClick={handleOpenModal}>
                 <p>
                   Watch Tour <span className="icon-play2"></span>
