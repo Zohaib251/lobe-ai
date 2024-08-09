@@ -55,7 +55,7 @@ const Example = () => {
       <div className="overflow-hidden py-16 w-full">
         {/* First Row */}
         <div className="relative flex animate-marquee-left space-x-4">
-          <div className="flex space-x-4" style={{ minWidth: '2000px' }}>
+          <div className="flex space-x-4" style={{ minWidth: "2000px" }}>
             {videos.slice(0, 8).map((video, index) => (
               <a
                 key={index}
@@ -102,7 +102,7 @@ const Example = () => {
 
         {/* Second Row */}
         <div className="relative flex mt-8 animate-marquee-right space-x-4">
-          <div className="flex space-x-4" style={{ minWidth: '2000px' }}>
+          <div className="flex space-x-4" style={{ minWidth: "2000px" }}>
             {videos.slice(8, 16).map((video, index) => (
               <a
                 key={index}
