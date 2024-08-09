@@ -45,10 +45,10 @@ To start the application locally:
 
 2. **Build for Production**
    
+   This will create a production-ready build in the dist directory.
    ```bash
    npm run build
 
 
-   This will create a production-ready build in the dist directory.
 
 
